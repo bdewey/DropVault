@@ -1,0 +1,6 @@
+{ 
+    "contents": [
+        { "path": "/StrongBox/foo.key" },
+        { "path": "/StrongBox/foo.dat" }
+    ]
+}

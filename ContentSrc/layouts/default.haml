@@ -1,0 +1,16 @@
+---
+extension: html
+filter:    haml
+---
+!!!
+%html{html_attrs("en-us")}
+  %head
+    %title= @page.title
+    %link{ :rel => "stylesheet", :href=>"screen.css", :type => "text/css", :media => "screen, projection" }
+  %body.two-col.bp
+    #container
+      #header
+        %h1 DropVault
+      #content= @content
+      #footer.quiet 
+        %p A product of <a href="http://www.brians-brain.org">Brian's Brain</a> | <a href="http://www.dropbox.com">DropBox</a>

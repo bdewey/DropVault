@@ -1,0 +1,83 @@
+//
+// Prefix header for all source files of the 'DropboxPrototype' target in the 'DropboxPrototype' project
+//  Copyright 2011 Brian Dewey. 
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_2
+#warning "This project uses features only available in iPhone SDK 3.2 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#import "GTMDefines.h"
+#import "DVStrings.h"
+
+#define kProgramName        @"DropVault"
+#define kDropVaultPath      @"/StrongBox"
+
+//
+//  The Core Data entity for storing key information
+//
+
+#define kDVKeyEntity        @"StrongBoxKey"
+
+//
+//  The Core Data property containing the key file name.
+//
+
+#define kDVKeyName          @"KeyName"
+
+//
+//  Core Data property with the file decryption key
+//
+
+#define kDVKey              @"Key"
+
+//
+//  Core Data property with the file decryption initialization vector.
+//
+
+#define kDVIV               @"InitializationVector"
+
+//
+//  The Core Data property containing the cleartext file name.
+//
+
+#define kDVFileName         @"FileName"
+
+//
+//  The Core Data property containing the flag of whether the item has a
+//  sidecar file.
+//
+
+#define kDVHasSidecar       @"hasSidecar"
+
+//
+//  The Core Data property containing the human readable size of the main
+//  data file.
+//
+
+#define kDVHumanReadableSize @"humanReadableSize"
+
+//
+//  The Core Data property containing the last modified date of the main data file.
+//
+
+#define kDVLastModifiedDate @"lastModifiedDate"

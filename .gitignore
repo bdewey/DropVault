@@ -1,0 +1,4 @@
+.hg*
+.DS_Store
+build
+.svn

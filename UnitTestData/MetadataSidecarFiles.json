@@ -1,0 +1,10 @@
+{ 
+    "contents": [
+        { "path": "/StrongBox/foo.key" },
+        { "path": "/StrongBox/foo.dat" },
+        { "path": "/StrongBox/foo-sidecar.key" },
+        { "path": "/StrongBox/foo-sidecar.dat" },
+        { "path": "/StrongBox/20110124210018-26185D7F.key" },
+        { "path": "/StrongBox/20110124210018-26185D7F.dat" }
+    ]
+}

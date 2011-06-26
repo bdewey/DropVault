@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contents</key>
+	<array>
+		<dict>
+			<key>modified</key>
+			<string>Sat, 12 Mar 2011 20:58:00 -0800</string>
+			<key>path</key>
+			<string>/StrongBox/foo.dat</string>
+		</dict>
+	</array>
+	<key>hash</key>
+	<string>xyzzy</string>
+</dict>
+</plist>
